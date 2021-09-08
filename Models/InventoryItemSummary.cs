@@ -5,11 +5,10 @@ using System.Web;
 
 namespace ThulaniMabasso.BitCube.Phase1.Models {
     public class InventoryItemSummary {
-        public double Average { get; set; }
+        public double Price { get; set; }
         public int NumOfProducts { get; set; }
 
-        public override string ToString() {
-            return $" Average Price : {Average} , Number of items available {NumOfProducts}";
-        }
+        public string productIconInfo { get; set; }
+        public string ProductName { get; set; }
     }
 }

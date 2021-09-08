@@ -5,11 +5,7 @@ using System.Web;
 
 namespace ThulaniMabasso.BitCube.Phase1.Models {
     public class ProductsSoldResult {
-        // result of product sold.
         public ProductsSellOrder ProductSoldResult { get; set; }
-       
-        public override string ToString() {
-            return $"{ProductSoldResult.ProductSold}";
-        }
+        public string ResultConfirmation { get; set; }
     }
 }

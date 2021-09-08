@@ -10,5 +10,6 @@ namespace ThulaniMabasso.BitCube.Phase1.Models {
         ProductsSoldResult SellProductsFromInventory(ProductsSellOrder itemsSoldOrder);
         InventoryItemSummary GetInventoryItemSummary(ProductType stock);
         InventorySummary GetInventorySummary();
+
     }
 }
